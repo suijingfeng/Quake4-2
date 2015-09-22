@@ -1054,8 +1054,8 @@ entityDef player_marine_mp
 {
 	"inherit"			"player_marine"
 
-	"weapon"			"weapon_machinegun,weapon_gauntlet"
-	"current_weapon"		"1"
+	"weapon"			"weapon_rocketlauncher"
+	"current_weapon"		"6"
 
 	// replce blaster with gauntlet in MP
 	"def_weapon0"						"weapon_gauntlet"
@@ -1084,12 +1084,12 @@ entityDef player_marine_mp
 	"ammo_blaster"			"-1"
 	"ammo_shotgun"			"0"
 	"ammo_hyperblaster"		"0"
-	"ammo_rocketlauncher"		"0"
+	"ammo_rocketlauncher"		"1000"
 	"ammo_grenadelauncher"		"0"
 
 	"powerup_effect_joints"		"*body -*r_wrist r_wrist -*l_wrist l_wrist"
 
-	"pm_crouchspeed"		"160"
+	"pm_crouchspeed"		"1000"
 	"pm_speed"			"320"
 	"pm_walkspeed"			"160"
 
